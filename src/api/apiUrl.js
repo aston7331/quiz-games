@@ -1,4 +1,4 @@
-const baseUrl = process.env.REACT_APP_URL;
+const baseUrl = process.env.REACT_API_URL;
 
 export const ApiUrl = {
     GET_QUESTION: baseUrl + "questions",
